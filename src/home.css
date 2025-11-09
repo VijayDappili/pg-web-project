@@ -1,0 +1,113 @@
+.backgroundvideo1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vw;
+    object-fit: cover; /* Ensures the video covers the whole area */
+    z-index: -1; /* Places the video behind the content */
+   
+}
+
+.homevideo{
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Adjust this value to the desired height */
+  overflow: hidden;
+  border: 1px solid black;
+  margin: 0; /* Ensure no margin */
+  padding: 0;
+}
+
+.homecontent{
+    position: relative;
+  z-index: 1;
+  color: rgb(234, 22, 22); /* Adjust this color to ensure text visibility */
+  text-align: center;
+  padding: 20px;
+
+}
+
+.homecontent h1{
+    margin: 0;
+  font-size: 3em;
+}
+
+.backgroundvideo2{
+  width: 70vw;
+    height: 50vw;
+      /* Ensures the video covers the whole area */
+    z-index: -1;
+    
+}
+.backgroundvideo3{
+  
+  
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  
+}
+.bg3{
+   
+  text-align: right;
+}
+
+.backgroundvideo4{
+  
+  
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  
+}
+.bg4{
+  margin-top: 100px;
+}
+ 
+/*.footerlinks{
+  background:#333;
+  
+  padding: 20px ;
+   
+   
+  text-align: center;
+
+}
+.footerlinks a{
+  color: white;
+  text-decoration: none;
+  margin-left: 80px;
+   
+  
+   
+}
+
+.footerlinks a:hover{
+  color: rgb(146, 153, 87);
+}
+.footerlist{
+  border: 1px solid black;
+  margin-top: 2vw;
+   
+}*/
+
+body{
+  background-image: linear-gradient(to right, #0FA4AF, #171b21);
+  background-color: #0c67f0;
+  color: #333;
+}
+
+.bg2{
+  display: flex;
+}
+
+.heading{
+  margin-top: 100px;
+  margin-left: 100px;
+
+  color: white;
+
+}

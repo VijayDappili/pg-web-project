@@ -1,0 +1,46 @@
+/* Reset margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for navigation */
+  nav ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: block; /* Ensure list items are displayed in a block */
+  }
+  
+  nav ul li {
+    margin-bottom: 10px; /* Add some space between list items vertically */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+    font-weight: bold; /* Make links bold */
+    display: block; /* Ensure links take up the full width of the li element */
+    padding: 10px; /* Add padding inside the links for better spacing */
+    background-color: #f0f0f0; /* Add background color for links */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  
+  nav ul li a:hover {
+    color: white; /* Change text color on hover */
+    background-color: #007bff; /* Change background color on hover */
+  }
+  
+  /* Styles for mainheading */
+  .mainheading {
+    height: 2vw;
+    background-color: aqua;
+    margin: 0;
+  }
+  
+  /* Optional: Reset margin and padding for common elements */
+  h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  

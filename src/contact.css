@@ -1,0 +1,128 @@
+.contactcontainer{
+    width: 80vw;
+   
+   margin: 0 auto;
+   padding: 20px;
+   
+    
+    
+    
+}
+
+.contactheading{
+    text-align: center;
+    color: white;
+     
+
+}
+.contactcontent{
+    font-size: 1.1rem;
+    line-height: 1.6em;
+    color: white;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.formitem{
+    display: flex;
+    flex-direction: column;
+}
+
+.formitem label{
+    margin-bottom: 0.3vw;
+    font-weight: bolder;
+    color: black;
+}
+
+.formitem input,.formitem textarea{
+    padding: 0.6vw;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 0.8vw;
+
+}
+
+.contactformbutton{
+    padding: 10px 20px;
+    background-color: #ffbd03;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+      
+
+}
+
+ .contactbuttondiv{
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    transition: transform 1.9s ease;
+    
+ }
+ .contactformbutton:hover{
+    background-color: #ED0800;
+    transform: translateY(-2px);
+ }
+
+ .formdiv{
+    border-radius: 5px;
+
+    padding: 1vw;
+    width: 40vw;
+    margin-top: 3rem;
+    background-image: linear-gradient(120deg, #0FA4AF, #171b21);
+    margin-left: 15vw;
+     
+ }
+
+  
+ .msg input{
+    padding: 2vw;
+ }
+
+ .othercontact{
+    margin-top: 4vw;
+     
+    padding: 20px;
+ }
+
+ .othercontactheading{
+    padding: 20px;
+    color:white;
+    font-size: 1.5rem;
+
+ }
+
+  .othercontactlists{
+    display: flex;
+     
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 2vw;
+  }
+
+  .othermethods{
+    background-image: linear-gradient(120deg, #e36613, #d4dae3);
+    background-color: white;
+     
+    border-radius: 8px;
+    padding: 2vw;
+    text-align: center;
+    flex:1 1 calc(3333.333%-5vw);
+    color:black;
+    width:8vw ;
+    transition: transform 0.2s ease;
+
+  }
+
+  .othermethods:hover{
+    transform: translateY(-10px);
+  }
+
+.callicon{
+    height: 3vw;
+}

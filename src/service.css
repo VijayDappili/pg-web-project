@@ -1,0 +1,194 @@
+.servicelist{
+    width: 70vw;
+   
+   margin: 0 auto;
+   padding: 20px;
+    
+}
+
+.listheading{
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, #ca9927, #d8e0eb);
+    color: black;
+    border-radius: 5px;
+}
+.listheading h1{
+    margin: 0;
+}
+
+.listitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vw;
+    gap:5vw;
+    
+    
+}
+.listitems p{
+    font-size: 1.1rem;
+}
+
+.amenity{
+    background-image: linear-gradient(120deg, #13e3a1, #d4dae3);
+    background-color: white;
+     color: black;
+    border-radius: 8px;
+    padding: 3vw ;
+   
+    text-align: center;
+    box-sizing: border-box;
+    
+   flex: 1 1 calc(33.333% - 5vw);
+   transition: transform 0.2s ease;
+    
+   
+    
+   
+}
+
+.amenity:hover{
+    transform: translateY(-10px);
+}
+
+.serviceimage{
+    width:15vw;
+    
+}
+/*food schedule*/
+
+.foodcontainer{
+    
+   
+    width: 80vw;
+   
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+   
+    
+}
+
+.foodheading{
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, #ca6b27, #548bd8);
+    color: black;
+    border-radius: 5px;
+
+}
+
+.foodcontent{
+    
+    display: flex;
+    flex-wrap: wrap;
+     
+    margin-top: 3vw;
+    gap:2vw;
+    
+}
+
+.day{
+    background-image: linear-gradient(120deg, #4497b8, #dddddd);
+    background-color: white;
+     color: black;
+    border-radius: 8px;
+    padding: 1vw ;
+    margin-top: 1vw;
+    flex: 1 1 calc(33.333% - 5vw);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+
+}
+.day:hover{
+    transform: translateY(-10px);
+}
+.day h2{
+    text-align: center;
+}
+  
+
+.foodcontent h2{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+ /*food timings*/
+
+ .foodtiming{
+    width: 30vw;
+   
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+    
+
+ }
+
+ .foodtimingheading{
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, #8dbb6c, #d85454);
+    color: black;
+    border-radius: 5px;
+ }
+
+
+ .foodtimingcontent{
+    background-image: linear-gradient(to right, #ac6cbb, #d85454);
+    margin-top: 0.5vw;
+    color: white;
+    padding: 2vw;
+    border-radius: 5px;
+    
+
+ }
+
+ /***********rules*/
+ .rules{
+    width: 50vw;
+   
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+    
+ }
+
+ .rulesheading{
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, #27cab2, #d8546a);
+    color: black;
+    border-radius: 5px;
+ }
+
+ .rulescontent{
+    
+     
+    margin-top:1vw;
+     
+ }
+
+ .ruleitem{
+    background-image: linear-gradient(120deg, #9bb844, #6aab7b);
+    background-color: white;
+     color: black;
+    border-radius: 8px;
+    padding: 1vw ;
+    margin-top: 0.3vw;
+    list-style-type:none;
+   
+    
+    transition: transform 0.1s ease;
+ }
+ .ruleitem:hover{
+    transform: translateY(-4px);
+ }
+
+
+  

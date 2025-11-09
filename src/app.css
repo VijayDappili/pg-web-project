@@ -1,0 +1,96 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display list items in a row */
+    justify-content: center;
+    
+
+  }
+  
+  nav ul li {
+    margin-right: 5vw; /* Add some space between list items */
+    margin-top: 2vw;
+     
+    
+  }
+  
+  nav ul li a {
+   text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+    font-weight: bold; /* Make links bold */
+    font-size:x-large;
+    
+  }
+  
+  nav ul li a:hover {
+    color: rgb(146, 153, 87); /* Change color on hover */
+  }
+  
+  
+  .mainheading {
+    height: 8vw;
+    background: linear-gradient(120deg, #2c3e50, #4ca1af); /* Gradient from navy blue to teal */
+    margin: 0;
+    color: white; /* Ensure text is readable */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    font-size: 1.5em; /* Increase font size for heading */
+    font-weight: 600; /* Semi-bold for prominence */
+  }
+  
+    
+  
+
+  h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footerlinks{
+    display: flex;
+    justify-content: center;
+     
+    align-items: flex-start;
+    padding: 20px;
+    background-image: linear-gradient(to right, #000000, #1c182e);
+    
+
+  }
+  .footerlist{
+     
+     padding: 1vw;
+     margin-right: 11vw;
+
+      
+  }
+
+  .footerlist ol{
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+  }
+
+  .footerlist ol li{
+    margin-bottom: 1vw;
+  }
+
+  .footerlist a{
+    text-decoration: none;
+    color: #f9f7f7;
+    font-weight: bold;
+    font-size:large;
+  }
+
+  .footerlist a:hover{
+   color: #007bff
+  }
