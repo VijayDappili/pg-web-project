@@ -6,7 +6,7 @@ import About from "./about";
 import Contact from "./contact";
 
 import './app.css'  ;
-import { HashLink } from "react-router-hash-link";
+//import { HashLink } from "react-router-hash-link";
 
  
      
